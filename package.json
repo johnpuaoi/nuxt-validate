@@ -1,14 +1,17 @@
 {
   "name": "nuxt-validate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple Nuxt input validation module using vee-validate",
   "main": "src/index.js",
   "scripts": {
     "test": "jest"
   },
+  "publishConfig": {
+  "registry":"https://npm.pkg.github.com"
+},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lewyuburi/nuxt-validate.git"
+    "url": "git+https://github.com/johnpuaoi/nuxt-validate.git"
   },
   "keywords": [
     "nuxt",
@@ -18,12 +21,12 @@
     "validation",
     "vuejs"
   ],
-  "author": "Lewis Yuburi",
+  "author": "John Puaoi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lewyuburi/nuxt-validate/issues"
+    "url": "https://github.com/johnpuaoi/nuxt-validate/issues"
   },
-  "homepage": "https://github.com/lewyuburi/nuxt-validate#readme",
+  "homepage": "https://github.com/johnpuaoi/nuxt-validate#readme",
   "dependencies": {
     "vee-validate": "^3.4.5"
   },
